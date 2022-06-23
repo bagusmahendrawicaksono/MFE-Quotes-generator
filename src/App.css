@@ -1,0 +1,55 @@
+.App-header {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  background: linear-gradient(90deg, #2f418e 1.18%, #a626d3 100%);
+  color: white;
+  padding: 10px;
+}
+.App-header > img {
+  height: 100%;
+  margin-right: 6px;
+}
+.main {
+  padding: 36px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.form--input {
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+  padding: 5px 10px;
+  line-height: 28px;
+}
+.form--button {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-sizing: content-box;
+  height: 33px;
+}
+.quotes--image {
+  max-width: 205%;
+}
+.quotes--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+  bottom: 210px;
+}
